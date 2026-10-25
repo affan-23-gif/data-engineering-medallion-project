@@ -61,7 +61,7 @@ Java 17 or later is required by this Spark release. Python 3.10 or later is supp
 java -version
 
 # 2. From the project folder, create and activate a virtual environment
-python3.12 -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate
 
 # 3. Install pinned Spark / Delta dependencies
