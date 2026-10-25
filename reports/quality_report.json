@@ -1,0 +1,38 @@
+{
+  "project": "Ecommerce Medallion Data Engineering Pipeline",
+  "run_started_at_utc": "2026-10-23T20:06:04.465898+00:00",
+  "run_finished_at_utc": "2026-10-23T20:08:17.313652+00:00",
+  "execution_mode": "local full refresh; synthetic input data",
+  "source_rows": {
+    "customers": 14,
+    "products": 12,
+    "orders": 23
+  },
+  "bronze_rows": {
+    "customers": 14,
+    "products": 12,
+    "orders": 23
+  },
+  "silver_rows": {
+    "customers": 10,
+    "products": 9,
+    "orders": 16
+  },
+  "quarantined_rows": {
+    "customers": 4,
+    "products": 3,
+    "orders": 7
+  },
+  "gold_rows": {
+    "monthly_sales": 12,
+    "customer_summary": 10,
+    "product_performance": 9
+  },
+  "quality_checks": {
+    "silver_customer_ids_are_unique": true,
+    "silver_product_ids_are_unique": true,
+    "silver_order_ids_are_unique": true,
+    "gold_revenue_is_non_negative": true
+  },
+  "revenue_policy": "Only COMPLETED and DELIVERED orders contribute to Gold revenue metrics."
+}

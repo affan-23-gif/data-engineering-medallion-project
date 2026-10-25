@@ -1,0 +1,15 @@
+customer_id,full_name,email,city,signup_date
+1,Ava Martinez,ava.martinez@example.com,New York,2023-12-11
+2,Noah Johnson,noah.johnson@example.com,Chicago,2024-01-20
+3,Mia Chen,mia.chen@example.com,San Francisco,2024-02-05
+4,Liam Patel,liam.patel@example.com,Austin,2024-03-09
+5,Sofia Garcia,sofia.garcia@example.com,Seattle,2024-04-02
+6,Ethan Brown,ethan.brown@example.com,Boston,2024-05-18
+7,Isabella Wilson,isabella.wilson@example.com,Denver,2024-06-01
+8,James Miller,james.miller@example.com,Miami,2024-07-12
+9,Grace Lee,grace.lee@example.com,Portland,2024-08-25
+10,Olivia Davis,olivia.davis@example.com,Atlanta,2024-09-10
+3,Mia Chen,mia.chen@example.com,San Francisco,2024-02-05
+11,,bad.name@example.com,Dallas,2024-10-02
+12,Harper Scott,not-an-email,Phoenix,2024-10-11
+,Missing Key,missing.key@example.com,Denver,2024-10-19

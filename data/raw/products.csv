@@ -1,0 +1,13 @@
+product_id,product_name,category,unit_price
+101,Laptop,Computers,999.99
+102,Wireless Mouse,Accessories,24.99
+103,Mechanical Keyboard,Accessories,79.99
+104,Monitor,Displays,249.99
+105,USB-C Hub,Accessories,39.99
+106,Office Chair,Furniture,179.99
+107,Notebook,Stationery,5.99
+108,Headphones,Audio,89.99
+102,Wireless Mouse,Accessories,24.99
+109,Discounted Item,Clearance,-5.00
+110,,Miscellaneous,12.50
+111,USB-C Cable,Accessories,9.99

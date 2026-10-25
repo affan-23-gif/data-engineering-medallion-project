@@ -1,0 +1,6 @@
+flowchart LR
+    A["Synthetic CSV Sources<br/>customers.csv<br/>products.csv<br/>orders.csv"] --> B["Bronze Layer<br/>Raw strings + ingestion metadata<br/>Delta tables"]
+    B --> C["Silver Layer<br/>Typed and normalized data<br/>Validation + deduplication"]
+    C --> D["Quarantine<br/>Rejected rows + reason codes"]
+    C --> E["Gold Layer<br/>Monthly sales<br/>Customer summary<br/>Product performance"]
+    E --> F["Quality Report<br/>Row counts + validation checks"]
